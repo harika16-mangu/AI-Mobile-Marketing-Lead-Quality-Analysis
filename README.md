@@ -1,12 +1,12 @@
 # AI-Mobile-Marketing-Lead-Quality-Analysis
 
-# Data Analyst Case Study: Aarki Lead Quality Analysis
-# Overview
+## Data Analyst Case Study: Aarki Lead Quality Analysis
+## Overview
 This repository contains my solution to a data analyst case study provided by Aarki AI enabled mobile marketing company. The project involved analyzing a confidential dataset to understand trends in lead quality and identify opportunities for improvement. The analysis was conducted using Python in Jupyter Notebooks, with findings summarized in a presentation and dashboard.
 
 The primary goal of this case study was to demonstrate a structured approach to a business problem by transforming raw data into actionable insights for various stakeholders, including the CEO, product, and sales teams.
 
-# The Problem: Understanding and Improving Lead Quality
+## The Problem: Understanding and Improving Lead Quality
 
 The case study provided a simplified dataset of approximately 3,000 leads sold to an advertiser. Each lead was associated with a specific ad creative and a final CallStatus. The core objective was to analyze the data to answer three key business questions:
 
@@ -16,7 +16,7 @@ Drivers of Quality: What factors within the dataset (e.g., ad creative, user seg
 
 Strategic Opportunities: Given a hypothetical scenario where the advertiser offers a 20% CPL increase for a 20% improvement in lead quality, what specific opportunities exist within the data to achieve this goal?
 
-# Dataset Description
+## Dataset Description
 The dataset, a confidential subset of real-world data, contained information about each lead. Due to its proprietary nature, the raw data is not included in this public repository.
 
 The key fields analyzed were:
@@ -33,7 +33,7 @@ Unknown Quality: All other statuses
 
 WidgetName: An internal name for the ad creative that includes details about the ad size, form page layout, design, and color.
 
-# Methodology
+## Methodology
 My analysis followed a multi-step process to ensure a robust and comprehensive solution:
 
 Data Cleaning & Preparation: The initial step involved loading the dataset into a pandas DataFrame, handling data types, and creating new features to facilitate analysis. This included creating a LeadQuality column based on the CallStatus categories defined in the case study.
@@ -46,19 +46,25 @@ Segment Analysis: I segmented the data based on various attributes derived from 
 
 Opportunity Identification: Based on the findings from the segment analysis, I identified specific ad creative segments that demonstrated above-average lead quality. This information was then used to propose a strategy for increasing the overall lead quality by 20%, as requested in the case.
 
-# Key Findings & Recommendations
+## Key Findings & Recommendations
 The analysis led to several key findings and actionable recommendations for the Aarki team:
 
-Time-Based Trends: [Insert specific findings here, e.g., "Lead quality showed a slight downward trend over the period, but it was not found to be statistically significant."]
+Time-Based Trends: "Analysis revealed that lead quality has shown a slight upward trend over the observed period, with noticeable peaks in even-numbered months (April, June, August), suggesting cyclical performance patterns, with a close rate of ~11%"
 
-Primary Quality Drivers: [Insert specific findings here, e.g., "The most significant driver of lead quality was the ad creative's color palette. Ads with a 'blue' background consistently outperformed those with 'yellow' backgrounds."]
+Primary Quality Drivers:
+1. "Partners like Advertise.com and AdKnowledge deliver superior conversion rates (30–35% and 12%+ respectively), highlighting
+opportunities for reallocation"
+2. "Users with declared debts in the $70K–90K range are the most likely to convert, making them prime candidates for audience targeting
+and tailored messaging."​
 
-Strategic Path to Improvement: [Insert specific findings here, e.g., "By reallocating traffic away from underperforming ad creatives (e.g., specific ad sizes or design variations) and focusing efforts on the top-performing segments (e.g., 'blue' and 'yellowarrow' ads), we project that the overall lead quality rate could be improved by up to 25%, exceeding the advertiser's 20% requirement and justifying the CPL increase."]
+Strategic Path to Improvement:
+1. If we increase the share of leads from high-performing widgets (currently 18% of volume, converting at ~12–15%),​ And scale up lead flow from top partners such as
+2. Advertise.com (30–35% quality rate) and AdKnowledge (12%+),​While reducing volume from low-performing creatives and campaigns (under 5% close rate), increases the quality leads ​And concentrating on debt ranges between $70K–90K and high-performing states (OK, HI, CT, MT, AK)​
 
 Repository Contents
-notebooks/: Contains the Jupyter Notebooks used for the data analysis.
+notebooks/Lead Qulaity Analysis: Contains the Jupyter Notebooks used for the data analysis.
 
-presentation/: Includes the slides and notes from the presentation.
+presentation/lead_quality_analysis: Includes the slides and notes from the presentation.
 
 README.md: This file, outlining the project.
 
