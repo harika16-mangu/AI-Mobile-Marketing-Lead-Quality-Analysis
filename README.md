@@ -2,7 +2,9 @@
 
 ## Data Analyst Case Study: Aarki Lead Quality Analysis
 ## Overview
-This repository contains my solution to a data analyst case study provided by Aarki AI enabled mobile marketing company. The project involved analyzing a confidential dataset to understand trends in lead quality and identify opportunities for improvement. The analysis was conducted using Python in Jupyter Notebooks, with findings summarized in a presentation and dashboard.
+This repository contains my solution to a data analyst case study provided by Aarki AI enabled mobile marketing company. 
+
+The project involved analyzing a confidential dataset to understand trends in lead quality and identify opportunities for improvement. The analysis was conducted using Python in Jupyter Notebooks, with findings summarized in a presentation and dashboard.
 
 The primary goal of this case study was to demonstrate a structured approach to a business problem by transforming raw data into actionable insights for various stakeholders, including the CEO, product, and sales teams.
 
@@ -51,7 +53,7 @@ The analysis led to several key findings and actionable recommendations for the 
 
 Time-Based Trends: "Analysis revealed that lead quality has shown a slight upward trend over the observed period, with noticeable peaks in even-numbered months (April, June, August), suggesting cyclical performance patterns, with a close rate of ~11%"
 
-Primary Quality Drivers:
+** Primary Quality Drivers: ** 
 1. "Partners like Advertise.com and AdKnowledge deliver superior conversion rates (30–35% and 12%+ respectively), highlighting
 opportunities for reallocation"
 2. "Users with declared debts in the $70K–90K range are the most likely to convert, making them prime candidates for audience targeting
@@ -61,7 +63,8 @@ Strategic Path to Improvement:
 1. If we increase the share of leads from high-performing widgets (currently 18% of volume, converting at ~12–15%),​ And scale up lead flow from top partners such as
 2. Advertise.com (30–35% quality rate) and AdKnowledge (12%+),​While reducing volume from low-performing creatives and campaigns (under 5% close rate), increases the quality leads ​And concentrating on debt ranges between $70K–90K and high-performing states (OK, HI, CT, MT, AK)​
 
-Repository Contents
+## Repository Contents
+
 notebooks/Lead Qulaity Analysis: Contains the Jupyter Notebooks used for the data analysis.
 
 presentation/lead_quality_analysis: Includes the slides and notes from the presentation.
