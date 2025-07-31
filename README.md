@@ -1,11 +1,13 @@
 # AI-Mobile-Marketing-Lead-Quality-Analysis
-Data Analyst Case Study: Aarki Lead Quality Analysis
-Overview
-This repository contains my solution to a data analyst case study provided by Aarki for a full-time position. The project involved analyzing a confidential dataset to understand trends in lead quality and identify opportunities for improvement. The analysis was conducted using Python in Jupyter Notebooks, with findings summarized in a presentation.
+
+# Data Analyst Case Study: Aarki Lead Quality Analysis
+# Overview
+This repository contains my solution to a data analyst case study provided by Aarki AI enabled mobile marketing company. The project involved analyzing a confidential dataset to understand trends in lead quality and identify opportunities for improvement. The analysis was conducted using Python in Jupyter Notebooks, with findings summarized in a presentation and dashboard.
 
 The primary goal of this case study was to demonstrate a structured approach to a business problem by transforming raw data into actionable insights for various stakeholders, including the CEO, product, and sales teams.
 
-The Problem: Understanding and Improving Lead Quality
+# The Problem: Understanding and Improving Lead Quality
+
 The case study provided a simplified dataset of approximately 3,000 leads sold to an advertiser. Each lead was associated with a specific ad creative and a final CallStatus. The core objective was to analyze the data to answer three key business questions:
 
 Lead Quality Trends: Are there any statistically significant trends in lead quality over time (improving or declining)?
@@ -14,7 +16,7 @@ Drivers of Quality: What factors within the dataset (e.g., ad creative, user seg
 
 Strategic Opportunities: Given a hypothetical scenario where the advertiser offers a 20% CPL increase for a 20% improvement in lead quality, what specific opportunities exist within the data to achieve this goal?
 
-Dataset Description
+# Dataset Description
 The dataset, a confidential subset of real-world data, contained information about each lead. Due to its proprietary nature, the raw data is not included in this public repository.
 
 The key fields analyzed were:
@@ -31,7 +33,7 @@ Unknown Quality: All other statuses
 
 WidgetName: An internal name for the ad creative that includes details about the ad size, form page layout, design, and color.
 
-Methodology
+# Methodology
 My analysis followed a multi-step process to ensure a robust and comprehensive solution:
 
 Data Cleaning & Preparation: The initial step involved loading the dataset into a pandas DataFrame, handling data types, and creating new features to facilitate analysis. This included creating a LeadQuality column based on the CallStatus categories defined in the case study.
@@ -44,7 +46,7 @@ Segment Analysis: I segmented the data based on various attributes derived from 
 
 Opportunity Identification: Based on the findings from the segment analysis, I identified specific ad creative segments that demonstrated above-average lead quality. This information was then used to propose a strategy for increasing the overall lead quality by 20%, as requested in the case.
 
-Key Findings & Recommendations
+# Key Findings & Recommendations
 The analysis led to several key findings and actionable recommendations for the Aarki team:
 
 Time-Based Trends: [Insert specific findings here, e.g., "Lead quality showed a slight downward trend over the period, but it was not found to be statistically significant."]
